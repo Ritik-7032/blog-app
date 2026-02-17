@@ -3,7 +3,7 @@ import "./globals.css";
 import "react-toastify/dist/ReactToastify.css"
 import { ClerkProvider } from "@clerk/nextjs";
 const inter = Inter({subsets:['latin']})
-import Heade from "@/components/extra/Heade";
+import Heade from "@/Components/extra/Heade";
 export const metadata = {
   title: "CurioBlog",
   
@@ -16,7 +16,7 @@ export const metadata = {
 };
 
 
-import Footer from "@/components/Footer";
+import Footer from "@/Components/Footer";
 export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
