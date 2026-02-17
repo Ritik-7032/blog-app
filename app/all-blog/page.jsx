@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import BlogItem from '@/components/BlogItem';
+import BlogItem from '@/Components/BlogItem';
 import { useBlogStore } from '@/store/useBlogStore';
 
 const BlogPage = () => {
